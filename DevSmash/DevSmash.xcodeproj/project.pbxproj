@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		443A2F2A24C75757002A1503 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443A2F2924C75757002A1503 /* PlayerController.swift */; };
+		44B30E7E24C7716900D7D9D4 /* Nintendo-DS-BIOS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44B30E7D24C7716900D7D9D4 /* Nintendo-DS-BIOS.ttf */; };
 		6176AE4624C769AB00D6785A /* PlayerSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176AE4524C769AB00D6785A /* PlayerSelectionViewController.swift */; };
 		61D22C1624BD48690050AC58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D22C1524BD48690050AC58 /* AppDelegate.swift */; };
 		61D22C1824BD48690050AC58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D22C1724BD48690050AC58 /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		443A2F2924C75757002A1503 /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		44B30E7D24C7716900D7D9D4 /* Nintendo-DS-BIOS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nintendo-DS-BIOS.ttf"; sourceTree = "<group>"; };
 		6176AE4224C7681A00D6785A /* DevSmash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DevSmash.entitlements; sourceTree = "<group>"; };
 		6176AE4524C769AB00D6785A /* PlayerSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSelectionViewController.swift; sourceTree = "<group>"; };
 		61D22C1224BD48690050AC58 /* DevSmash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevSmash.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				6176AE4224C7681A00D6785A /* DevSmash.entitlements */,
+				44B30E7D24C7716900D7D9D4 /* Nintendo-DS-BIOS.ttf */,
 				61D22C2A24BD48960050AC58 /* Model */,
 				443A2F2624C756E9002A1503 /* Controllers */,
 				61D22C2924BD488C0050AC58 /* Resources */,
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61D22C2224BD486B0050AC58 /* LaunchScreen.storyboard in Resources */,
+				44B30E7E24C7716900D7D9D4 /* Nintendo-DS-BIOS.ttf in Resources */,
 				61D22C1F24BD486B0050AC58 /* Assets.xcassets in Resources */,
 				61D22C1D24BD48690050AC58 /* Main.storyboard in Resources */,
 			);
