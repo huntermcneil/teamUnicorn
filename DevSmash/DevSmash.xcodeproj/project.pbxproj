@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		443A2F2A24C75757002A1503 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443A2F2924C75757002A1503 /* PlayerController.swift */; };
 		61D22C1624BD48690050AC58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D22C1524BD48690050AC58 /* AppDelegate.swift */; };
 		61D22C1824BD48690050AC58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D22C1724BD48690050AC58 /* SceneDelegate.swift */; };
 		61D22C1D24BD48690050AC58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D22C1B24BD48690050AC58 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		443A2F2924C75757002A1503 /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
 		61D22C1224BD48690050AC58 /* DevSmash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevSmash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D22C1524BD48690050AC58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61D22C1724BD48690050AC58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		443A2F2624C756E9002A1503 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				443A2F2924C75757002A1503 /* PlayerController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		6176AE4124C755A900D6785A /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				61D22C2A24BD48960050AC58 /* Model */,
+				443A2F2624C756E9002A1503 /* Controllers */,
 				61D22C2924BD488C0050AC58 /* Resources */,
 				6176AE4124C755A900D6785A /* Views */,
 			);
@@ -164,6 +175,7 @@
 			files = (
 				61D22C2C24BD48A50050AC58 /* Player.swift in Sources */,
 				61D22C1624BD48690050AC58 /* AppDelegate.swift in Sources */,
+				443A2F2A24C75757002A1503 /* PlayerController.swift in Sources */,
 				61D22C1824BD48690050AC58 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
