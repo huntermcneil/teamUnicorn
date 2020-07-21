@@ -15,13 +15,15 @@ class Player: Codable {
     var health: String
     var stamina: String
     var bio: String
+    var fightingFrom: String
 //    var playerImage: Image
     
-    init(name: String, health: String, stamina: String, bio: String) {
+    init(name: String, health: String, stamina: String, bio: String, fightingFrom: String) {
     self.name = name
     self.health = health
     self.stamina = stamina
     self.bio = bio
+    self.fightingFrom = fightingFrom
 //    self.playerImage = playerImage
     }
 }
