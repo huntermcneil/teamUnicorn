@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E3C-iy-ozG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E3C-iy-ozG">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -128,10 +128,10 @@
             </objects>
             <point key="canvasLocation" x="1134.7826086956522" y="144.64285714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Mathias View Controller-->
         <scene sceneID="o0k-c9-Jgp">
             <objects>
-                <viewController id="baA-c1-hjU" sceneMemberID="viewController">
+                <viewController id="baA-c1-hjU" customClass="MathiasViewController" customModule="DevSmash" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MFf-m7-cXU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -196,15 +196,21 @@
                         <viewLayoutGuide key="safeArea" id="Xlh-GT-kgR"/>
                     </view>
                     <navigationItem key="navigationItem" id="qDv-cg-5Oj"/>
+                    <connections>
+                        <outlet property="fightingFromLabel" destination="2QA-nF-lPj" id="2Yp-ol-vj8"/>
+                        <outlet property="funFactLabel" destination="odp-J7-TNo" id="lXj-Zl-iYy"/>
+                        <outlet property="healthLabel" destination="4nl-Ut-tkj" id="Ag9-Iy-eMU"/>
+                        <outlet property="staminaLabel" destination="RdV-o0-4O5" id="AsG-H7-oRd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GNY-6X-DAS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2429" y="701"/>
         </scene>
-        <!--View Controller-->
+        <!--Hunter View Controller-->
         <scene sceneID="yxJ-I0-MSe">
             <objects>
-                <viewController id="7U7-g2-0RN" sceneMemberID="viewController">
+                <viewController id="7U7-g2-0RN" customClass="HunterViewController" customModule="DevSmash" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H0o-5H-78Q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -269,15 +275,21 @@
                         <viewLayoutGuide key="safeArea" id="gVh-dv-FxX"/>
                     </view>
                     <navigationItem key="navigationItem" id="fZK-iX-fet"/>
+                    <connections>
+                        <outlet property="fightingFromLabel" destination="yeh-yA-3AU" id="gMJ-uk-dOG"/>
+                        <outlet property="funFactLabel" destination="bX9-BA-TnR" id="Vxw-Se-I01"/>
+                        <outlet property="healthLabel" destination="KPZ-BX-xvm" id="x5i-xJ-VGK"/>
+                        <outlet property="staminaLabel" destination="nYL-GD-Z0o" id="Imu-6R-aM5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JpM-5V-2Vd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="583" y="935"/>
         </scene>
-        <!--View Controller-->
+        <!--Lindsey View Controller-->
         <scene sceneID="Kqp-r8-dRd">
             <objects>
-                <viewController id="Oz5-QK-Ca6" sceneMemberID="viewController">
+                <viewController id="Oz5-QK-Ca6" customClass="LindseyViewController" customModule="DevSmash" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GRs-hA-gry">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -342,15 +354,21 @@
                         <viewLayoutGuide key="safeArea" id="8ae-Fo-8z5"/>
                     </view>
                     <navigationItem key="navigationItem" id="Bop-rf-aGQ"/>
+                    <connections>
+                        <outlet property="fightingFromLabel" destination="ykk-dM-3ml" id="CBB-lO-vOX"/>
+                        <outlet property="funFactLabel" destination="FGm-bG-JkI" id="ccT-uZ-ZHQ"/>
+                        <outlet property="healthLabel" destination="4yC-Gs-1ps" id="rPt-mA-fgb"/>
+                        <outlet property="staminaLabel" destination="wd0-f5-PDh" id="PLo-nv-iiu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uWG-kZ-wsN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1441" y="935"/>
         </scene>
-        <!--View Controller-->
+        <!--Stacy View Controller-->
         <scene sceneID="jJn-Az-EW4">
             <objects>
-                <viewController id="AfR-g0-UyP" sceneMemberID="viewController">
+                <viewController id="AfR-g0-UyP" customClass="StacyViewController" customModule="DevSmash" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qat-zL-0Xx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -382,6 +400,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yip-3O-d24">
+                                <rect key="frame" x="198" y="438" width="133" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.71120053530000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -402,15 +427,21 @@
                         <viewLayoutGuide key="safeArea" id="qKr-6z-Bwx"/>
                     </view>
                     <navigationItem key="navigationItem" id="4Il-Ci-J8t"/>
+                    <connections>
+                        <outlet property="fightingFromLabel" destination="dtt-9s-zRe" id="0m4-ui-jID"/>
+                        <outlet property="funFactLabel" destination="9Fu-6c-nnT" id="TkA-BJ-9LZ"/>
+                        <outlet property="healthLabel" destination="yip-3O-d24" id="ZCf-2c-AmC"/>
+                        <outlet property="staminaLabel" destination="fdA-bm-w8i" id="lLY-8u-hoS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GjN-c2-YAj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2428.985507246377" y="-694.41964285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Jill View Controller-->
         <scene sceneID="gWk-AC-wBW">
             <objects>
-                <viewController id="hVg-km-0Tb" sceneMemberID="viewController">
+                <viewController id="hVg-km-0Tb" customClass="JillViewController" customModule="DevSmash" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EsL-qF-d9R">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -475,6 +506,12 @@
                         <viewLayoutGuide key="safeArea" id="evw-I1-nYR"/>
                     </view>
                     <navigationItem key="navigationItem" id="oKd-XC-40M"/>
+                    <connections>
+                        <outlet property="fightingFromLabel" destination="YDG-3Y-Nqp" id="7Pc-no-6Nm"/>
+                        <outlet property="funFactLabel" destination="GyX-mm-N9G" id="S4A-wR-M2z"/>
+                        <outlet property="healthLabel" destination="oEj-BM-TtK" id="voD-oa-t0m"/>
+                        <outlet property="staminaLabel" destination="6zK-LW-DKv" id="5zr-lC-WSR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1YG-2L-bOD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

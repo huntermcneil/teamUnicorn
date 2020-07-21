@@ -14,7 +14,7 @@ class PlayerController {
     //MARK: - Shared Instance
     static var shared = PlayerController()
     //MARK: - SOT
-    var players: [Player] = [Player(name: "Stacy", health: "73%", stamina: "62%", bio: "", fightingFrom: ""), Player(name: "Jill", health: "77%", stamina: "50%", bio: "Has many spiders", fightingFrom: ""), Player(name: "Lindsey", health: "90%", stamina: "90% with coffee", bio: "Wants a puppy", fightingFrom: ""), Player(name: "Mathias", health: "100%", stamina: "20%", bio: "Real name is David", fightingFrom: "Layton, UT"), Player(name: "Hunter", health: "7%", stamina: "2%", bio: "Gets married in 11 days", fightingFrom: "Mesa, AZ")]
+    var players: [Player] = [Player(name: "Stacy", health: "73%", stamina: "62%", bio: "Her maiden name is not Martinez", fightingFrom: "Pleasant View, UT"), Player(name: "Jill", health: "77%", stamina: "50%", bio: "Has many spiders", fightingFrom: ""), Player(name: "Lindsey", health: "90%", stamina: "90% with coffee", bio: "Wants a puppy", fightingFrom: ""), Player(name: "Mathias", health: "100%", stamina: "20%", bio: "Real name is David", fightingFrom: "Layton, UT"), Player(name: "Hunter", health: "7%", stamina: "2%", bio: "Gets married in 11 days", fightingFrom: "Mesa, AZ")]
     
     init () {
         loadFromPersistentStorage()
