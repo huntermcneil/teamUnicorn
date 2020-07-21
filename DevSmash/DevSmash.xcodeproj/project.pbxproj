@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		443A2F2A24C75757002A1503 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443A2F2924C75757002A1503 /* PlayerController.swift */; };
+		6176AE4624C769AB00D6785A /* PlayerSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176AE4524C769AB00D6785A /* PlayerSelectionViewController.swift */; };
 		61D22C1624BD48690050AC58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D22C1524BD48690050AC58 /* AppDelegate.swift */; };
 		61D22C1824BD48690050AC58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D22C1724BD48690050AC58 /* SceneDelegate.swift */; };
 		61D22C1D24BD48690050AC58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D22C1B24BD48690050AC58 /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		443A2F2924C75757002A1503 /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		6176AE4224C7681A00D6785A /* DevSmash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DevSmash.entitlements; sourceTree = "<group>"; };
+		6176AE4524C769AB00D6785A /* PlayerSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSelectionViewController.swift; sourceTree = "<group>"; };
 		61D22C1224BD48690050AC58 /* DevSmash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevSmash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D22C1524BD48690050AC58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61D22C1724BD48690050AC58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +45,8 @@
 		443A2F2624C756E9002A1503 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				443A2F2924C75757002A1503 /* PlayerController.swift */,
+				6176AE4424C7699700D6785A /* View Controllers */,
+				6176AE4324C7698C00D6785A /* Model Controller */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -53,6 +57,22 @@
 				61D22C1B24BD48690050AC58 /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		6176AE4324C7698C00D6785A /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				443A2F2924C75757002A1503 /* PlayerController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		6176AE4424C7699700D6785A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6176AE4524C769AB00D6785A /* PlayerSelectionViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		61D22C0924BD48690050AC58 = {
@@ -74,6 +94,7 @@
 		61D22C1424BD48690050AC58 /* DevSmash */ = {
 			isa = PBXGroup;
 			children = (
+				6176AE4224C7681A00D6785A /* DevSmash.entitlements */,
 				61D22C2A24BD48960050AC58 /* Model */,
 				443A2F2624C756E9002A1503 /* Controllers */,
 				61D22C2924BD488C0050AC58 /* Resources */,
@@ -175,6 +196,7 @@
 			files = (
 				61D22C2C24BD48A50050AC58 /* Player.swift in Sources */,
 				61D22C1624BD48690050AC58 /* AppDelegate.swift in Sources */,
+				6176AE4624C769AB00D6785A /* PlayerSelectionViewController.swift in Sources */,
 				443A2F2A24C75757002A1503 /* PlayerController.swift in Sources */,
 				61D22C1824BD48690050AC58 /* SceneDelegate.swift in Sources */,
 			);
@@ -320,9 +342,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DevSmash/DevSmash.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K23N64X4NS;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = DevSmash/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -340,9 +363,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DevSmash/DevSmash.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K23N64X4NS;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = DevSmash/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
